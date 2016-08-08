@@ -2,7 +2,7 @@
 
 Follow the instructions [here](http://elm-lang.org/install). Use their installer for your type of system (mac)... or build it from source... with Haskell. No????
 
-# HOW TO TIC TAC TOW
+# HOW TO TIC TAC TOE
 
 1st, clone this repository.
 
