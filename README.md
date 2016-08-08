@@ -6,4 +6,4 @@ Follow the instructions [here](http://elm-lang.org/install). Use their installer
 
 1st, clone this repository.
 
-2nd, type `elm-reactor` into your terminal and open a browser to <http://localhost:8000/Main.elm>>
+2nd, while inside the repo folder, type `elm-reactor` into your terminal and open a browser to <http://localhost:8000/Main.elm>>
