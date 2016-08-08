@@ -87,7 +87,7 @@ renderBox box =
         Xtype -> "X"
         Otype -> "O"
    in
-     h1 [onClick (UPDATE_BOARD box)] [text (ticTacChar box)]
+     h1 [onClick (UPDATE_BOARD box), style valueStyling] [text (ticTacChar box)]
 
 --STYLE GENERATORS
 mainGridStyle : List (String, String)
@@ -104,3 +104,7 @@ rowStyling =
   , ("justify-content", "space-around")
   , ("align-items", "center")
   ]
+
+valueStyling : List (String, String)
+valueStyling =
+  [("cursor", "pointer")]
